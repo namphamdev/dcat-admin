@@ -53,7 +53,7 @@ class Color extends Text
 
         $this->script = "$('{$this->getElementClassSelector()}').parent().colorpicker($options);";
 
-        $this->prepend('<i></i>')
+        $this->prepend('<i class="feather icon-edit-2"></i>')
             ->defaultAttribute('style', 'width: 140px');
 
         return parent::render();
