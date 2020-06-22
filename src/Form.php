@@ -107,6 +107,7 @@ class Form implements Renderable
     protected static $availableFields = [
         'button'         => Field\Button::class,
         'checkbox'       => Field\Checkbox::class,
+        'color'          => Field\Color::class,
         'currency'       => Field\Currency::class,
         'date'           => Field\Date::class,
         'dateRange'      => Field\DateRange::class,
