@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Dcat\Admin\Form\Field;
 
 class Color extends Text
 {
